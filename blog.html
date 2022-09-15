@@ -52,9 +52,9 @@
             <div class="accordion-body">
               <p> 
                 <strong>Global Scope:</strong>
-                Variables declared Globally (outside any function) have Global Scope. Variables can be accessed from anywhere in a js program.Variables declared with var, let and const are quite similar when declared outside a block.</p>
+                The Javascript global scope is the context where everything in a Javascript program executes by default. This scope includes all variables, objects, and references that are not contained within a customized scope defined by a programmer. Variables can be accessed from anywhere in a js program.</p>
 
-               <p> <strong>Block Scope:</strong> let and const keywords provide Block Scope in js.Variables declared inside a {} block cannot be accessed from outside the block.
+               <p> <strong>Block Scope:</strong> This scope restricts the variable that is declared inside a specific block, from access by the outside of the block. The let & const keyword facilitates the variables to be block scoped. let and const keywords provide Block Scope in js.Variables declared inside a {} block cannot be accessed from outside the block.
               </p>
             </div>
           </div>
@@ -69,6 +69,7 @@
             <div class="accordion-body">
               <p>
                 JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks.The Event Loop has to monitor the Call Stack and the Callback Queue.If the Call Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack, which effectively runs it.
+                
               </p>
             </div>
           </div>
@@ -83,12 +84,12 @@
             <div class="accordion-body">
               <p>
                 <strong>8 ways to get undefined:</strong><br>
-                (1)Variable is not initialized will give undefined.<br>
-                 (2)function with no result.<br>
-                (3)Parameter is not passed will be undefined.<br>
-                (4) If return has nothing on the right side will return undefined.<br> (5)Properties that does not exist on an object will give you undefined.<br>
-                (6)Accessing array elements outside of the index range will give undefined.<br>
-                (7)Deleting an element inside an array.<br>
+                (1)Variable is not initialized will give undefined.
+                 (2)function with no result.
+                (3)Parameter is not passed will be undefined.
+                (4) If return has nothing on the right side will return undefined.(5)Properties that does not exist on an object will give you undefined.
+                (6)Accessing array elements outside of the index range will give undefined.
+                (7)Deleting an element inside an array.
                 (8)Set a value directly to undefined.
             </p>
             </div>

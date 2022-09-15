@@ -143,11 +143,13 @@ button {
   cursor: pointer;
 }
 
+/* ==============modify history style======= */
 #histories {
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 20px;
   justify-content: space-around;
+  
 }
 
 .card {
@@ -155,6 +157,7 @@ button {
   height: 100%;
   padding: 50px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
@@ -198,9 +201,15 @@ button {
 
 @media screen and (max-width:992px){
   #histories{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  gap: 10px;
-  justify-content: center;
+  
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  
+  }
+
+  .card {
+    
+    align-items: center;
+    
   }
 }
